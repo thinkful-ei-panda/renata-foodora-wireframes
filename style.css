@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+    line-height: 1.0;
+}
+
+nav {
+    position: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+  }
+
+header {
+    padding: 12% 0;
+}
+  
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: rgb(241, 241, 241);
+}
+  
+section:nth-child(even) {
+    background-color: rgb(252, 252, 252);
+}
+  
+
+.cpright{
+    font-size: 12px;
+}
